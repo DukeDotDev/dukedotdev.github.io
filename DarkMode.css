@@ -4,6 +4,7 @@ body {
     color: lightgray;
     text-align: center;
     margin: 10%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div.navbar {
@@ -16,7 +17,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
 }
 
 li {
@@ -35,6 +35,10 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+li.active {
+    background-color: orange;
+  }
 
 footer {
     background-color: purple;
