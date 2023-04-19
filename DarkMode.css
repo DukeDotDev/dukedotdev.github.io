@@ -49,3 +49,8 @@ li:last-child {
 footer {
     background-color: purple;
 }
+
+p {
+    text-align: left;
+    text-indent: 5%;
+}
