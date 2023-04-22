@@ -55,6 +55,10 @@ p {
     text-indent: 5%;
 }
 
+img {
+    align-items: right;
+}
+
 h1.center {
     text-align: center;
 }
