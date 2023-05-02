@@ -7,7 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
+ul.navbar {
     background-color: purple;
     list-style-type: none;
     margin: 0;
@@ -19,13 +19,13 @@ ul {
     top: 0;
 }
 
-li {
+li.nav {
     float: left;
 /* Add a gray right border to all list items, except the last item (last-child) */
     border-right: 1px solid #bbb;
 }
 
-li a {
+li.nav a {
     display: block;
     color: white;
     text-align: center;
@@ -34,15 +34,31 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+li.nav a:hover {
     background-color: #111;
 }
 
 li.active {
     background-color: orange;
-  }
+    float: left;
+/* Add a gray right border to all list items, except the last item (last-child) */
+    border-right: 1px solid #bbb;
+}
 
-li:last-child {
+li.active a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li.active a:hover {
+    background-color: #111;
+}
+
+li.nav:last-child {
     border-right: none;
 } 
 
