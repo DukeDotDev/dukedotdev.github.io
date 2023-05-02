@@ -1,14 +1,14 @@
 /*This CSS document was written in VS Code!*/
 body {
-    background-color: rgb(14, 22, 22);
-    color: lightgray;
+    background-color: #282c34;
+    color: white;
     text-align: center;
     margin: 10%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 ul.navbar {
-    background-color: purple;
+    background-color: #1b1d23;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -26,7 +26,7 @@ li.nav {
 }
 
 li.active {
-    background-color: orange;
+    background-color: #333742;
     float: left;
     border-right: 1px solid #bbb;
 }
@@ -65,7 +65,7 @@ li.active:last-child {
 } 
 
 footer {
-    background-color: purple;
+    background-color: #1b1d23;
 }
 
 p {
@@ -87,4 +87,20 @@ h3.center {
 
 p.center {
     text-align: center;
+}
+
+ol {
+    text-align: left;
+}
+
+li {
+    text-align: left;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #d94221;
 }
