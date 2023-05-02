@@ -49,11 +49,11 @@ li.active a {
 
 /* Change the link color to #111 (black) on hover */
 li.nav a:hover {
-    background-color: #111;
+    background-color: #282c34;
 }
 
 li.active a:hover {
-    background-color: #111;
+    background-color: #282c34;
 }
 
 li.nav:last-child {
